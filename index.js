@@ -90,16 +90,22 @@ function CemberinAlani(r, pi) {
 /*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
 
 let ucetambolunenler,
-  enkucuk,
-  enbuyuk,
+  enkucuk = +Infinity,
+  enbuyuk = -Infinity,
   ucebolunenlerintoplami,
   besyuzdenkucuksayilar,
   siralisayilar,
   tekraredensayilar;
 
 // 3a çözümü
-
-/* kodlar buraya */
+for (let sayi of sayilar) {
+  if (sayi < enkucuk) {
+    enkucuk = sayi;
+  }
+  if (sayi > enbuyuk) {
+    enbuyuk = sayi;
+  }
+}
 
 // 3b çözümü:
 
