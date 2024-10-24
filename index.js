@@ -94,8 +94,8 @@ istiyoruz. Örnek string: "{sayı} sayısı {tekrarSayisi} kere tekrar edilmişt
 /*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
 
 let ucetambolunenler = [],
-  enkucuk = +Infinity,
-  enbuyuk = -Infinity,
+  enkucuk = sayilar[0],
+  enbuyuk = sayilar[0],
   ucebolunenlerintoplami,
   besyuzdenkucuksayilar,
   siralisayilar,
